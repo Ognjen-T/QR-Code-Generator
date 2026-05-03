@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+#cont{
+    width: 400px;
+    height: 100vh;
+    background-color:#70798e;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+input[type="text"]{
+    width:270px;
+    height: 35px;
+    border: none;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 0;
+    padding-left: 10px;
+
+}
+
+#btn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+}
